@@ -1,0 +1,37 @@
+<resources>
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorAccent">#4c8bf5</item>
+</style>
+
+<style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+<item name="colorAccent">#4c8bf5</item>
+</style>
+
+
+<style name="TopBarText" parent="@style/TextAppearance.AppCompat">
+    <item name="android:textSize">20sp</item>
+
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="colorOnPrimary">@color/purple_500</item>
+</style>
+
+
+    <style name="CustomText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF1C1C</item>
+    </style>
+
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/TextAppearance.AppCompat">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="MyDatePicker" >
+        <item name="android:textColorPrimary">@color/yellow</item>
+        <item name ="colorControlNormal">@color/yellow</item>
+    </style>
+
+
+</resources>
